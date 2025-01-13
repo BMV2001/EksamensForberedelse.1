@@ -1,5 +1,7 @@
 package sorting;
 
+import java.util.List;
+
 public class BubbleSort {
 
     public static int[] sort(int[] liste){
@@ -12,5 +14,6 @@ public class BubbleSort {
                 }
             }
         }
+        return liste;
     }
 }
